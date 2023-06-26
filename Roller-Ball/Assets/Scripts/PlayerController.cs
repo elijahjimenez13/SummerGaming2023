@@ -55,4 +55,12 @@ public class PlayerController : MonoBehaviour
 
         _pController.Move(_moveDirection * Time.deltaTime); // The function call that moves the player based on _moveDirection
     }
+
+    private void OnTriggerEnter(Collider other) // Called by unity when the player object first touches the trigger collider
+    {
+        if(other.gameObject.CompareTag("PickUp")) 
+        {
+            other.gameObject.SetActive(false);
+        }
+    }
 }
