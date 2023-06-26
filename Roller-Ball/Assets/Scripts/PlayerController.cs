@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
     public TextMeshProUGUI timeText;
+    public GameObject loseTextObject;
     private float currentTime = 0;
     private float startingTime = 120;
 
@@ -39,6 +40,7 @@ public class PlayerController : MonoBehaviour
 
         SetCountText();
         winTextObject.SetActive(false);
+        loseTextObject.SetActive(false);
     }
 
     void SetCountText()
@@ -85,6 +87,10 @@ public class PlayerController : MonoBehaviour
         if (currentTime <= 60)
         {
             timeText.color = Color.red;
+        }
+        if (currentTime <= 0)
+        {
+            loseTextObject.SetActive(true);
         }
     }
 
