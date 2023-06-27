@@ -77,7 +77,9 @@ public class PlayerController : MonoBehaviour
         } else // The player is in the air
         {
             // Pull the player back to the ground with gravity
-            _moveDirection.y -= _gravity * Time.deltaTime;
+            float oldY = _moveDirection.y;
+            _moveDirection = movement;
+            _moveDirection.y = oldY - _gravity * Time.deltaTime;
         }
         
 
