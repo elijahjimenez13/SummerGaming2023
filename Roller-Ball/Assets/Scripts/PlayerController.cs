@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI timeText;
     public GameObject loseTextObject;
     private float currentTime = 0;
-    private float startingTime = 120;
+    private float startingTime = 200;
 
     private Vector3 _moveDirection; // The curent direction the player is moving in // A Vector3 (x, y, z)
 
@@ -91,11 +91,24 @@ public class PlayerController : MonoBehaviour
         if (currentTime <= 0)
         {
             loseTextObject.SetActive(true);
+
         }
     }
 
     private void OnTriggerEnter(Collider other) // Called by unity when the player object first touches the trigger collider
     {
+        switch (other.gameObject.tag)
+        {
+            case "PickUp":
+                break;
+
+            case "Enemy":
+                gameObject.SetActive(false);
+                loseTextObject.SetActive(true);
+                FindObjectOfType<GameManager>().EndGame(); // Find game manager and end the game
+                break;
+        }
+        
         if(other.gameObject.CompareTag("PickUp")) 
         {
             other.gameObject.SetActive(false);

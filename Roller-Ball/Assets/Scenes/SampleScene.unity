@@ -193,6 +193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -267,6 +271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -336,6 +344,10 @@ PrefabInstance:
     - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
       propertyPath: m_Name
       value: Short Maze Wall (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -478,6 +490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -538,6 +554,10 @@ PrefabInstance:
     - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_Name
       value: High Maze Wall (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -609,6 +629,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Short Maze Wall (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -673,6 +697,10 @@ PrefabInstance:
     - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
       propertyPath: m_Name
       value: Short Maze Wall (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -884,6 +912,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Big Wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4778560574426764102, guid: d283ca109b55b444689fd1db300caf91, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -913,7 +945,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &351320622
 Transform:
@@ -994,6 +1026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1009,6 +1045,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
   m_PrefabInstance: {fileID: 667823886}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &411579544
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 576498930}
+    m_Modifications:
+    - target: {fileID: 1723732387888599561, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_Name
+      value: Enemy 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648339229957709226, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: _target
+      value: 
+      objectReference: {fileID: 879583121}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
 --- !u!4 &416272934 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1810380366163665728, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
@@ -1073,6 +1174,10 @@ PrefabInstance:
     - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_Name
       value: High Maze Wall (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1139,11 +1244,80 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+--- !u!1001 &487272764
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 576498930}
+    m_Modifications:
+    - target: {fileID: 1723732387888599561, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_Name
+      value: Enemy 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648339229957709226, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: _target
+      value: 
+      objectReference: {fileID: 879583121}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
 --- !u!1001 &507184617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1203,6 +1377,10 @@ PrefabInstance:
     - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_Name
       value: High Maze Wall (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1274,6 +1452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Short Maze Wall (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1339,6 +1521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1349,11 +1535,112 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1810380366163665728, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
   m_PrefabInstance: {fileID: 573526176}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &574949446 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+  m_PrefabInstance: {fileID: 8737295772364338778}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &576498929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 576498930}
+  m_Layer: 0
+  m_Name: Parent Enemies
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &576498930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576498929}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.00000011920929, y: 1.5, z: -0.00000011920929}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 972160728}
+  - {fileID: 2100802205}
+  - {fileID: 574949446}
+  - {fileID: 616722025}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &589286555 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1810380366163665728, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
   m_PrefabInstance: {fileID: 507184617}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &599013085
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 846465858}
+    m_Modifications:
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -13
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_Name
+      value: Short Maze Wall (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 22ee9b01577554814abb2575906a7111, type: 3}
 --- !u!1001 &604725204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1414,11 +1701,64 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+--- !u!4 &616722025 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+  m_PrefabInstance: {fileID: 1198009884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &636180924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 636180926}
+  - component: {fileID: 636180925}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &636180925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636180924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7485ba13a3574087bee2bed13852c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &636180926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636180924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 437.75, y: 230.75, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &644841366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1478,6 +1818,10 @@ PrefabInstance:
     - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_Name
       value: High Maze Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1606,6 +1950,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Short Maze Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1670,6 +2018,10 @@ PrefabInstance:
     - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
       propertyPath: m_Name
       value: Short Maze Wall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1792,6 +2144,10 @@ PrefabInstance:
     - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
       propertyPath: m_Name
       value: Short Maze Wall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1952,6 +2308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Short Maze Wall (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2017,6 +2377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Short Maze Wall (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2081,6 +2445,10 @@ PrefabInstance:
     - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_Name
       value: High Maze Wall (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2212,6 +2580,10 @@ PrefabInstance:
     - target: {fileID: 4778560574426764102, guid: d283ca109b55b444689fd1db300caf91, type: 3}
       propertyPath: m_Name
       value: Big Wall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778560574426764102, guid: d283ca109b55b444689fd1db300caf91, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2364,7 +2736,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &846465858
 Transform:
@@ -2428,6 +2800,8 @@ Transform:
   - {fileID: 829798261}
   - {fileID: 514019139}
   - {fileID: 115837348}
+  - {fileID: 1171643562}
+  - {fileID: 959140778}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2486,6 +2860,10 @@ PrefabInstance:
     - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_Name
       value: High Maze Wall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2548,168 +2926,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Short Maze Wall (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22ee9b01577554814abb2575906a7111, type: 3}
---- !u!1 &879583117
+--- !u!1 &879583117 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7438709610819796014, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+  m_PrefabInstance: {fileID: 2064366150883082563}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 879583121}
-  - component: {fileID: 879583120}
-  - component: {fileID: 879583119}
-  - component: {fileID: 879583118}
-  - component: {fileID: 879583123}
-  - component: {fileID: 879583122}
-  m_Layer: 0
-  m_Name: Player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!135 &879583118
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879583117}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &879583119
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879583117}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 07df2577a682948378d132d1cb717306, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &879583120
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879583117}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!224 &879583121
+--- !u!224 &879583121 stripped
 RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+  m_PrefabInstance: {fileID: 2064366150883082563}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879583117}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.5}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &879583122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879583117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 274263f1ad4544d09a60d4ea8faeb5cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _moveSpeed: 5
-  _jumpForce: 10
-  _gravity: 9.8
-  _pController: {fileID: 0}
-  countText: {fileID: 887727881}
-  winTextObject: {fileID: 1462485800}
-  timeText: {fileID: 301692094}
---- !u!143 &879583123
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879583117}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Height: 1
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &887727879
 GameObject:
   m_ObjectHideFlags: 0
@@ -2905,6 +3140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3043,6 +3282,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Short Maze Wall (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3107,6 +3350,10 @@ PrefabInstance:
     - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
       propertyPath: m_Name
       value: Short Maze Wall (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3178,11 +3425,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Short Maze Wall (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+--- !u!4 &959140778 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+  m_PrefabInstance: {fileID: 1571700238}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3290,6 +3546,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 879583117}
   _positionOffset: {x: 0, y: 10, z: 0}
+--- !u!4 &972160728 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+  m_PrefabInstance: {fileID: 487272764}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1047639291 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1810380366163665728, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
@@ -3365,6 +3626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3435,11 +3700,85 @@ PrefabInstance:
       propertyPath: m_Name
       value: Short Maze Wall (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+--- !u!4 &1171643562 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+  m_PrefabInstance: {fileID: 599013085}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1198009884
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 576498930}
+    m_Modifications:
+    - target: {fileID: 1723732387888599561, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_Name
+      value: Enemy 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648339229957709226, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: _target
+      value: 
+      objectReference: {fileID: 879583121}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
 --- !u!1001 &1220227737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3499,6 +3838,10 @@ PrefabInstance:
     - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_Name
       value: High Maze Wall (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3560,6 +3903,10 @@ PrefabInstance:
     - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_Name
       value: High Maze Wall (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3659,6 +4006,10 @@ PrefabInstance:
     - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
       propertyPath: m_Name
       value: Maze Wall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3802,6 +4153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3909,6 +4264,10 @@ PrefabInstance:
     - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
       propertyPath: m_Name
       value: Short Maze Wall (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4075,6 +4434,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3785554885488724717, guid: 5cd1fa37e6ae240219d7df902401b2cc, type: 3}
   m_PrefabInstance: {fileID: 2044391312}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1571700238
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 846465858}
+    m_Modifications:
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_Name
+      value: Short Maze Wall (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 22ee9b01577554814abb2575906a7111, type: 3}
 --- !u!4 &1576460840 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1962920936476335189, guid: d283ca109b55b444689fd1db300caf91, type: 3}
@@ -4201,6 +4621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Big Wall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4778560574426764102, guid: d283ca109b55b444689fd1db300caf91, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4265,6 +4689,10 @@ PrefabInstance:
     - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_Name
       value: High Maze Wall (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4437,6 +4865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4457,6 +4889,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1810380366163665728, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
   m_PrefabInstance: {fileID: 1372140215}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1714161258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1714161260}
+  - component: {fileID: 1714161259}
+  m_Layer: 0
+  m_Name: NavMesh Surface
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1714161259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714161258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.6666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 2a56c471d7a6647928ac6231b6027f79, type: 2}
+  m_BuildHeightMesh: 0
+--- !u!4 &1714161260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714161258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.00000011920929, y: 1.5, z: -0.00000011920929}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1749201330 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3785554885488724717, guid: 5cd1fa37e6ae240219d7df902401b2cc, type: 3}
@@ -4521,6 +5016,10 @@ PrefabInstance:
     - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_Name
       value: High Maze Wall (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4632,11 +5131,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1810380366163665728, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_LocalScale.x
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1810380366163665728, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.5
+      value: 19.8
       objectReference: {fileID: 0}
     - target: {fileID: 1810380366163665728, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4677,6 +5176,10 @@ PrefabInstance:
     - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_Name
       value: High Maze Wall (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4743,6 +5246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4807,6 +5314,10 @@ PrefabInstance:
     - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_Name
       value: High Maze Wall (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4874,7 +5385,7 @@ MonoBehaviour:
   m_text: You Lose!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5073,7 +5584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1810380366163665728, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_LocalScale.x
-      value: 18
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1810380366163665728, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5085,7 +5596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1810380366163665728, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -21
+      value: -17.2
       objectReference: {fileID: 0}
     - target: {fileID: 1810380366163665728, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5118,6 +5629,10 @@ PrefabInstance:
     - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_Name
       value: High Maze Wall (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5265,6 +5780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5330,6 +5849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Short Maze Wall (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5394,6 +5917,10 @@ PrefabInstance:
     - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
       propertyPath: m_Name
       value: High Maze Wall (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5521,6 +6048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5550,6 +6081,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 268120979808842429, guid: 22ee9b01577554814abb2575906a7111, type: 3}
   m_PrefabInstance: {fileID: 1456396192}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2100802205 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+  m_PrefabInstance: {fileID: 411579544}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2108894785
 PrefabInstance:
@@ -5610,6 +6146,10 @@ PrefabInstance:
     - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
       propertyPath: m_Name
       value: Short Maze Wall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5681,6 +6221,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5747,6 +6291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: High Maze Wall (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5812,6 +6360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Big Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 4778560574426764102, guid: d283ca109b55b444689fd1db300caf91, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5873,11 +6425,140 @@ PrefabInstance:
       propertyPath: m_Name
       value: Maze Wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8140161108925105164, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 114a2853e56054b63a4ebd1d562dc2de, type: 3}
+--- !u!1001 &2064366150883082563
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202298651805309643, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5121728319026431339, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: timeText
+      value: 
+      objectReference: {fileID: 301692094}
+    - target: {fileID: 5121728319026431339, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: countText
+      value: 
+      objectReference: {fileID: 887727881}
+    - target: {fileID: 5121728319026431339, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: _moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5121728319026431339, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: winTextObject
+      value: 
+      objectReference: {fileID: 1462485800}
+    - target: {fileID: 5121728319026431339, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: loseTextObject
+      value: 
+      objectReference: {fileID: 1901216536}
+    - target: {fileID: 7438709610819796014, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7438709610819796014, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
 --- !u!1001 &7913804926325728044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5995,8 +6676,77 @@ PrefabInstance:
       propertyPath: m_Name
       value: Maze Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 7660874358247478769, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22ee9b01577554814abb2575906a7111, type: 3}
+--- !u!1001 &8737295772364338778
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 576498930}
+    m_Modifications:
+    - target: {fileID: 1723732387888599561, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_Name
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2998874255443053627, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648339229957709226, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
+      propertyPath: _target
+      value: 
+      objectReference: {fileID: 879583121}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d64ec71c4b027430f8c62b93f4da66ed, type: 3}
