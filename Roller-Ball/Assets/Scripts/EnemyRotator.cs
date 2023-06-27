@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class EnemyRotator : MonoBehaviour
 {
+
+    public int spinRate = 20; 
+
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(new Vector3(180, 0, 0) * Time.deltaTime);
+        transform.Rotate(new Vector3(90, 0, 0) * Time.deltaTime * spinRate);
     }
 }
