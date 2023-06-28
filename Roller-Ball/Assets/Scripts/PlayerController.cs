@@ -25,9 +25,12 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
     public TextMeshProUGUI timeText;
+    public TextMeshProUGUI highscoreText;
     public GameObject loseTextObject;
+    public GameObject missionText;
     private float currentTime = 0;
     private float startingTime = 200;
+    private int highscore;
 
     private Vector3 _moveDirection; // The curent direction the player is moving in // A Vector3 (x, y, z)
 
@@ -41,15 +44,39 @@ public class PlayerController : MonoBehaviour
         SetCountText();
         winTextObject.SetActive(false);
         loseTextObject.SetActive(false);
+        Invoke("MissionText", 3f);
+
+        // Load the high score from PlayerPrefs
+        highscore = PlayerPrefs.GetInt("HighScore", 0);
+        highscoreText.text = "BEST TIME: " + highscore.ToString("0") + " SECONDS";
     }
 
     void SetCountText()
     {
-        countText.text = "Score: " + count.ToString();
+        countText.text = "SCORE: " + count.ToString();
         if (count >= 12)
         {
+            startingTime -= currentTime;
             winTextObject.SetActive(true);
+            // Check if the current time is higher than the saved high score
+            if (startingTime > highscore)
+            {
+                highscore = (int)startingTime;
+
+                // Save the new high score to PlayerPrefs
+                PlayerPrefs.SetInt("HighScore", highscore);
+                PlayerPrefs.Save();
+
+                highscoreText.text = "BEST TIME: " + highscore.ToString("0") + " SECONDS";
+            }
+
+            FindObjectOfType<GameManager>().EndGame();
         }
+    }
+
+    void MissionText()
+    {
+        missionText.SetActive(false);
     }
 
     // Update is called once per frame
@@ -105,6 +132,9 @@ public class PlayerController : MonoBehaviour
                 break;
 
             case "Enemy":
+                if (winTextObject.activeSelf)
+                    return; // skip code related to player death if the player has won
+                
                 gameObject.SetActive(false);
                 loseTextObject.SetActive(true);
                 FindObjectOfType<GameManager>().EndGame(); // Find game manager and end the game
