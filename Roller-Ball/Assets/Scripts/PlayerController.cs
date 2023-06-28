@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     public GameObject loseTextObject;
     public GameObject missionText;
     private float currentTime = 0;
-    private float startingTime = 200;
+    private float startingTime = 100;
     private int highscore;
 
     private Vector3 _moveDirection; // The curent direction the player is moving in // A Vector3 (x, y, z)
@@ -113,9 +113,13 @@ public class PlayerController : MonoBehaviour
         _pController.Move(_moveDirection * Time.deltaTime); // The function call that moves the player based on _moveDirection
         timeText.text = currentTime.ToString("0");
         
-        if (currentTime <= 60)
+        if (currentTime <= 100)
         {
             timeText.color = Color.red;
+        }
+        else 
+        {
+            timeText.color = Color.white;
         }
         if (currentTime <= 0)
         {
