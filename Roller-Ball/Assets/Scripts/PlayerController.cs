@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
     private float currentTime = 0;
     private float startingTime = 100;
     private int highscore;
+    public GameObject missionSmall;
 
     private Vector3 _moveDirection; // The curent direction the player is moving in // A Vector3 (x, y, z)
 
@@ -44,6 +45,7 @@ public class PlayerController : MonoBehaviour
         SetCountText();
         winTextObject.SetActive(false);
         loseTextObject.SetActive(false);
+        missionSmall.SetActive(false);
         Invoke("MissionText", 3f);
 
         // Load the high score from PlayerPrefs
@@ -72,6 +74,22 @@ public class PlayerController : MonoBehaviour
 
             FindObjectOfType<GameManager>().EndGame();
         }
+    }
+
+    public void DisableUI() {
+        countText.enabled=false;
+        winTextObject.SetActive(false);
+        timeText.enabled=false;
+        //highscore.SetActive(false);
+        loseTextObject.SetActive(false);
+        missionText.SetActive(false);
+        missionSmall.SetActive(true);
+    }
+
+    public void EnableUI() {
+        countText.enabled = true;
+        timeText.enabled = true;
+        missionSmall.SetActive(false);
     }
 
     void MissionText()
@@ -124,7 +142,7 @@ public class PlayerController : MonoBehaviour
         if (currentTime <= 0)
         {
             loseTextObject.SetActive(true);
-
+            FindObjectOfType<GameManager>().EndGame();
         }
     }
 
