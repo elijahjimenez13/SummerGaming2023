@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
             startingTime -= currentTime;
             winTextObject.SetActive(true);
             // Check if the current time is higher than the saved high score
-            if (startingTime > highscore)
+            if (startingTime < highscore)
             {
                 highscore = (int)startingTime;
 
