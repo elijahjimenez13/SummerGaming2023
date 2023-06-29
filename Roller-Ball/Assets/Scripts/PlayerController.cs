@@ -29,7 +29,8 @@ public class PlayerController : MonoBehaviour
     public GameObject loseTextObject;
     public GameObject missionText;
     private float currentTime = 0;
-    private float startingTime = 100;
+    public float startingTime = 100;
+    public int pickupsToFind;
     private int highscore;
     public GameObject missionSmall;
 
@@ -56,7 +57,7 @@ public class PlayerController : MonoBehaviour
     void SetCountText()
     {
         countText.text = "SCORE: " + count.ToString();
-        if (count >= 12)
+        if (count >= pickupsToFind)
         {
             startingTime -= currentTime;
             winTextObject.SetActive(true);
