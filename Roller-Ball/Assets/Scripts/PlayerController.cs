@@ -34,6 +34,9 @@ public class PlayerController : MonoBehaviour
     private int highscore;
     public GameObject missionSmall;
 
+    [SerializeField]
+    private string sceneKey = "Level1";
+
     private Vector3 _moveDirection; // The curent direction the player is moving in // A Vector3 (x, y, z)
 
     // Start is called before the first frame update
@@ -49,9 +52,27 @@ public class PlayerController : MonoBehaviour
         missionSmall.SetActive(false);
         Invoke("MissionText", 3f);
 
-        // Load the high score from PlayerPrefs
-        highscore = PlayerPrefs.GetInt("HighScore", 0);
-        highscoreText.text = "BEST TIME: " + highscore.ToString("0") + " SECONDS";
+        // Load the high score for the current scene from PlayerPrefs
+        string sceneHighScoreKey = "HighScore_" + sceneKey;
+
+        if (PlayerPrefs.HasKey(sceneHighScoreKey))
+        {
+            highscore = PlayerPrefs.GetInt(sceneHighScoreKey);
+        }
+        else
+        {
+            highscore = int.MaxValue; // Set it to a high value initially so that the first time it is saved, any value will be lower than this
+            PlayerPrefs.SetInt(sceneHighScoreKey, highscore);
+            PlayerPrefs.Save();
+        }
+
+        if (highscore > startingTime)
+        {
+            highscoreText.text = "BEST TIME: ---";
+        } else
+        {
+            highscoreText.text = "BEST TIME: " + highscore.ToString("0") + " SECONDS";
+        }
     }
 
     void SetCountText()
@@ -66,8 +87,9 @@ public class PlayerController : MonoBehaviour
             {
                 highscore = (int)startingTime;
 
-                // Save the new high score to PlayerPrefs
-                PlayerPrefs.SetInt("HighScore", highscore);
+                // Save the new high score for the current scene to PlayerPrefs
+                string sceneHighScoreKey = "HighScore_" + sceneKey;
+                PlayerPrefs.SetInt(sceneHighScoreKey, highscore);
                 PlayerPrefs.Save();
 
                 highscoreText.text = "BEST TIME: " + highscore.ToString("0") + " SECONDS";

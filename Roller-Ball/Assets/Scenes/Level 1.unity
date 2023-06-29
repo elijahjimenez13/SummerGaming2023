@@ -10636,6 +10636,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5121728319026431339, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: sceneKey
+      value: Level 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5121728319026431339, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
       propertyPath: timeText
       value: 
       objectReference: {fileID: 301692094}
@@ -10663,6 +10667,10 @@ PrefabInstance:
       propertyPath: highscoreText
       value: 
       objectReference: {fileID: 1484953371}
+    - target: {fileID: 5121728319026431339, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
+      propertyPath: pickupsToFind
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 5121728319026431339, guid: 0ae29aa31371d4737bba8b656b5a4759, type: 3}
       propertyPath: winTextObject
       value: 
