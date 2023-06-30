@@ -42,6 +42,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        Time.timeScale = 1f;
         _pController = GetComponent<CharacterController>(); // Assigning this var to CharacterController on this, the player
         count = 0;
         currentTime = startingTime;
