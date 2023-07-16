@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using RPG.Movement;
+using RPG.Movements;
 using RPG.Combat;
 
-namespace RPG.Control
+namespace RPG.Controls
 {
     public class PlayerController : MonoBehaviour
     {
@@ -21,7 +21,10 @@ namespace RPG.Control
             foreach (RaycastHit hit in hits)
             {
                 CombatTarget target = hit.transform.GetComponent<CombatTarget>();
-                if (target == null) continue;
+                if(!GetComponent<Fighter>().CanAttack(target))
+                {
+                    continue;
+                }
 
                 if (Input.GetMouseButtonDown(0))
                 {
