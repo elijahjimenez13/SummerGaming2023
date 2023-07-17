@@ -10,11 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8276980126875126923, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       propertyPath: healthPoints
-      value: 10
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: -1568912657369711687, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       propertyPath: weaponRange
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -1568912657369711687, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
+      propertyPath: weaponDamage
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2289258174901188838, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       propertyPath: m_Speed
