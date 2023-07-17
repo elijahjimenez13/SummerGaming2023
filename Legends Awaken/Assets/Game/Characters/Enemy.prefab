@@ -12,6 +12,14 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: -1568912657369711687, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
+      propertyPath: weaponRange
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289258174901188838, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
+      propertyPath: m_Speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3294156204673246496, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -73,6 +81,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8797844275074788265, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       insertIndex: -1
       addedObject: {fileID: -2170279806719137711}
+    - targetCorrespondingSourceObject: {fileID: 8797844275074788265, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3143537720250701892}
   m_SourcePrefab: {fileID: 100100000, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
 --- !u!4 &1887875087179717741 stripped
 Transform:
@@ -119,6 +130,23 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &-3143537720250701892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5592376996200174308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3b5ebe6b5bfa436da155810c96d8315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chaseDistance: 5
+  suspicionTime: 5
+  patrolPath: {fileID: 0}
+  waypointTolerance: 1
+  waypointDwellTime: 1
 --- !u!1001 &6430822637119890310
 PrefabInstance:
   m_ObjectHideFlags: 0

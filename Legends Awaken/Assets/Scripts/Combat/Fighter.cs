@@ -17,7 +17,7 @@ namespace RPG.Combat
 
         Health target;
 
-        float timeSinceLastAttack = 0.0f;
+        float timeSinceLastAttack = Mathf.Infinity;
 
         private void Update()
         {
@@ -69,7 +69,7 @@ namespace RPG.Combat
             return Vector3.Distance(transform.position, target.transform.position) < weaponRange;
         }
 
-        public bool CanAttack(CombatTarget combatTarget)
+        public bool CanAttack(GameObject combatTarget)
         {
             if (combatTarget == null)
             {
@@ -79,7 +79,7 @@ namespace RPG.Combat
             return targetToTest != null && !targetToTest.IsDead();
         }
 
-        public void Attack(CombatTarget combatTarget)
+        public void Attack(GameObject combatTarget)
         {
             GetComponent<ActionScheduler>().StartAction(this);
             target = combatTarget.GetComponent<Health>();
