@@ -15,13 +15,14 @@ namespace RPG.SceneManagement
         }
 
         [SerializeField] int sceneToLoad = -1;
-        [SerializeField] Transform spawnPoint; 
+        [SerializeField] Transform spawnPoint;
         [SerializeField] DestinationIdentifier destination;
         [SerializeField] float fadeOutTime = 1.0f;
         [SerializeField] float fadeInTime = 2.0f;
         [SerializeField] float fadeWaitTime = 0.5f;
 
-        private void OnTriggerEnter(Collider other) {
+        private void OnTriggerEnter(Collider other)
+        {
             if (other.tag == "Player")
             {
                 StartCoroutine(Transition());

@@ -99,7 +99,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 7751276334878930845}
   destination: 0
   fadeOutTime: 0.5
-  fadeInTime: 0.75
+  fadeInTime: 1
   fadeWaitTime: 0.5
 --- !u!1 &6630212799774202998
 GameObject:
