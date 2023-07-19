@@ -88,6 +88,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8797844275074788265, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       insertIndex: -1
       addedObject: {fileID: -3143537720250701892}
+    - targetCorrespondingSourceObject: {fileID: 8797844275074788265, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2077585191585654451}
   m_SourcePrefab: {fileID: 100100000, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
 --- !u!4 &1887875087179717741 stripped
 Transform:
@@ -151,6 +154,20 @@ MonoBehaviour:
   patrolPath: {fileID: 0}
   waypointTolerance: 1
   waypointDwellTime: 1
+  patrolSpeedFraction: 0.2
+--- !u!114 &-2077585191585654451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5592376996200174308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea9374b509b70f4bba37e4a2ca8cf00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueIdentifier: 
 --- !u!1001 &6430822637119890310
 PrefabInstance:
   m_ObjectHideFlags: 0
