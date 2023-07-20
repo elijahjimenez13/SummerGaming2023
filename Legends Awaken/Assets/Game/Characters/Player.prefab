@@ -92,7 +92,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3294156204673246496, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       propertyPath: m_RootOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3294156204673246496, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       propertyPath: m_LocalPosition.x
@@ -108,19 +108,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3294156204673246496, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.2588191
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3294156204673246496, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3294156204673246496, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9659258
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3294156204673246496, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3294156204673246496, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -128,7 +128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3294156204673246496, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 150
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3294156204673246496, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ea9374b509b70f4bba37e4a2ca8cf00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uniqueIdentifier: 
+  uniqueIdentifier: player
 --- !u!4 &4811588220847691720 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3294156204673246496, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
