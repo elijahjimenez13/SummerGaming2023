@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using RPG.Movements;
 using RPG.Core;
-using System;
 using RPG.Saving;
+using RPG.Attributes;
 
 namespace RPG.Combat
 {
@@ -57,6 +55,11 @@ namespace RPG.Combat
             weapon.Spawn(rightHandTransform, leftHandTransform, animator);
         }
 
+        public Health GetTarget()
+        {
+            return target;
+        }
+
         private void AttackBehaviour()
         {
             if (timeSinceLastAttack > timeBetweenAttacks)
@@ -84,11 +87,11 @@ namespace RPG.Combat
 
             if (currentWeapon.HasProjectile())
             {
-                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target);
+                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject);
             }
             else
             {
-                target.TakeDamage(currentWeapon.GetDamage());
+                target.TakeDamage(gameObject, currentWeapon.GetDamage());
             }
         }
 
@@ -139,7 +142,7 @@ namespace RPG.Combat
         public void RestoreState(object state)
         {
             string weaponName = (string)state;
-            Weapon weapon = Resources.Load<Weapon>(weaponName);
+            Weapon weapon = UnityEngine.Resources.Load<Weapon>(weaponName);
             EquipWeapon(weapon);
 
         }
