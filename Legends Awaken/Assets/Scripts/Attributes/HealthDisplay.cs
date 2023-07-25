@@ -19,7 +19,7 @@ namespace RPG.Attributes
 
         private void Update()
         {
-            textMeshPro.text = String.Format("{0:0.0}%", health.GetPercentage()); // Update the text using TextMeshPro component
+            textMeshPro.text = String.Format("{0:0}/{1:0}", health.GetHealthPoints(), health.GetMaxHealthPoints()); // Update the text using TextMeshPro component
         }
     }
 }

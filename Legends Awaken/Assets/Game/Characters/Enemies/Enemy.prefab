@@ -40,6 +40,10 @@ PrefabInstance:
       propertyPath: rightHandTransform
       value: 
       objectReference: {fileID: 6430822637120001160}
+    - target: {fileID: 869785802173517628, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2289258174901188838, guid: a7533484f93114b39924ef52cd9ae626, type: 3}
       propertyPath: m_Speed
       value: 3

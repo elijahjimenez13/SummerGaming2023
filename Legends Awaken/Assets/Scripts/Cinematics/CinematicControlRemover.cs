@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Playables;
 using RPG.Core;
-using RPG.Controls;
+using RPG.Control;
 
 namespace RPG.Cinematics
 {

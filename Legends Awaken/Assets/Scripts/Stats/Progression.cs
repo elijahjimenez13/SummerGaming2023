@@ -10,40 +10,38 @@ namespace RPG.Stats
         [SerializeField] ProgressionCharacterClass[] characterClasses = null;
 
         Dictionary<CharacterClass, Dictionary<Stat, float[]>> lookupTable = null;
-        
+
         public float GetStat(Stat stat, CharacterClass characterClass, int level)
         {
             BuildLookup();
 
-            float[] levels = lookupTable[characterClass][stat];
-
-            if (levels.Length < level)
+            if (lookupTable.TryGetValue(characterClass, out Dictionary<Stat, float[]> statLookupTable))
             {
-                return 0;
+                if (statLookupTable.TryGetValue(stat, out float[] levels))
+                {
+                    if (levels.Length >= level)
+                    {
+                        return levels[level - 1];
+                    }
+                }
             }
 
-            return levels[level - 1];
-
-            // foreach (ProgressionCharacterClass progressionClass in characterClasses)
-            // {
-            //     if (progressionClass.characterClass != characterClass) continue;
-
-            //     foreach (ProgressionStat progressionStat in progressionClass.stats)
-            //     {
-            //         if (progressionStat.stat != stat) continue;
-
-            //         if (progressionStat.levels.Length < level) continue;
-
-            //         return progressionStat.levels[level - 1];
-            //     }
-            // }
-            // return 0;
+            return 0;
         }
 
         public int GetLevels(Stat stat, CharacterClass characterClass)
         {
-            float[] levels = lookupTable[characterClass][stat];
-            return levels.Length;
+            BuildLookup();
+
+            if (lookupTable.TryGetValue(characterClass, out Dictionary<Stat, float[]> statLookupTable))
+            {
+                if (statLookupTable.TryGetValue(stat, out float[] levels))
+                {
+                    return levels.Length;
+                }
+            }
+
+            return 0;
         }
 
         private void BuildLookup()
