@@ -105,13 +105,25 @@ namespace RPG.Control
             }
             return false;
         }
+        
         private bool InteractWithMovement()
         {
-
             Vector3 target;
-            bool hasHit = RaycastNavMesh(out target);
+            RaycastHit hit;
+            bool hasHit = RaycastNavMesh(out target, out hit);
             if (hasHit)
             {
+                if (hit.transform.CompareTag("Water"))
+                {
+                    // Perform actions specific to objects with the "Water" tag
+                    Debug.Log("Clicked on an object with the Water tag!");
+                    // Add your additional actions or logic here...
+
+                    // Since we are interacting with water, we don't want to move to it.
+                    SetCursor(CursorType.None);
+                    return false;
+                }
+
                 if (Input.GetMouseButton(0))
                 {
                     GetComponent<Mover>().StartMoveAction(target, 1f);
@@ -122,11 +134,11 @@ namespace RPG.Control
             return false;
         }
 
-        private bool RaycastNavMesh(out Vector3 target)
+        private bool RaycastNavMesh(out Vector3 target, out RaycastHit hit)
         {
             target = new Vector3();
+            hit = new RaycastHit();
 
-            RaycastHit hit;
             bool hasHit = Physics.Raycast(GetMouseRay(), out hit);
             if (!hasHit) return false;
 

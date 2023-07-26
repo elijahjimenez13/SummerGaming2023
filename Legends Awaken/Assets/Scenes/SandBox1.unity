@@ -633,6 +633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword Pickup
       objectReference: {fileID: 0}
+    - target: {fileID: 8830410635031210345, guid: eb998116490a04ecba086ccb41d23097, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1357,6 +1361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fireball Pickup
       objectReference: {fileID: 0}
+    - target: {fileID: 3054581034685575574, guid: 07c9d55678b03436aa4ee0d94b2cc021, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5640441825924233199, guid: 07c9d55678b03436aa4ee0d94b2cc021, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1724,6 +1732,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 178985768962339786, guid: 0f12650c5032f3b4ca80c2f5326cf0c1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 686655316}
+    - targetCorrespondingSourceObject: {fileID: 178985768962339786, guid: 0f12650c5032f3b4ca80c2f5326cf0c1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 685801681}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f12650c5032f3b4ca80c2f5326cf0c1, type: 3}
 --- !u!4 &670252679 stripped
@@ -1745,7 +1756,7 @@ GameObject:
   - component: {fileID: 685801678}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1829,14 +1840,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685801677}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.7, z: 0}
-  m_LocalScale: {x: 9, y: 1, z: 9.5}
+  m_LocalRotation: {x: -0.0043633264, y: 0.000019038567, z: 0.0043632328, w: 0.999981}
+  m_LocalPosition: {x: -1.5874219, y: 5.4033785, z: 11.397337}
+  m_LocalScale: {x: 9, y: 1, z: 9.500001}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 670252679}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: -0.5, y: 0, z: 0.5}
 --- !u!1001 &686655315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3897,6 +3908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bow Pickup
       objectReference: {fileID: 0}
+    - target: {fileID: 2073170013555730215, guid: 608cef4e6598245018408fd31c9c4859, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8712129452887712094, guid: 608cef4e6598245018408fd31c9c4859, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4420,6 +4435,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7239860560743864551, guid: 82d1f594a6fa44e5c9f0328ffc0f0fcf, type: 3}
       propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215319376556480945, guid: 82d1f594a6fa44e5c9f0328ffc0f0fcf, type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8299966461265635961, guid: 82d1f594a6fa44e5c9f0328ffc0f0fcf, type: 3}
