@@ -395,6 +395,10 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 4727059070187274344, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 5592376996200174308, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: m_Name
       value: Enemy (2)
@@ -710,6 +714,10 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 4727059070187274344, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 5592376996200174308, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: m_Name
       value: Enemy (6)
@@ -814,6 +822,10 @@ PrefabInstance:
     - target: {fileID: 4226179182687242808, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: healthPoints
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4727059070187274344, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5592376996200174308, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: m_Name
@@ -971,7 +983,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288372955}
-  m_LocalRotation: {x: 0.026250888, y: 0.97348034, z: -0.17187034, w: 0.14868605}
+  m_LocalRotation: {x: 0.026250876, y: 0.97348034, z: -0.1718703, w: 0.14868602}
   m_LocalPosition: {x: -28, y: 2.6, z: 19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1521,6 +1533,10 @@ PrefabInstance:
     - target: {fileID: 4293685724611458673, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: m_IsKinematic
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4727059070187274344, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5592376996200174308, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: m_Name
@@ -2597,6 +2613,10 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 4727059070187274344, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 5592376996200174308, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: m_Name
       value: Enemy (4)
@@ -2743,6 +2763,10 @@ PrefabInstance:
     - target: {fileID: 4226179182687242808, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: healthPoints
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4727059070187274344, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5592376996200174308, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: m_Name
@@ -3101,6 +3125,10 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 4727059070187274344, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 5592376996200174308, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: m_Name
       value: Enemy (8)
@@ -3328,7 +3356,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335763538}
-  m_LocalRotation: {x: 0.21008568, y: 0.16908559, z: -0.03691632, w: 0.96224284}
+  m_LocalRotation: {x: 0.21008568, y: 0.16908558, z: -0.03691631, w: 0.96224284}
   m_LocalPosition: {x: -10, y: 3.6918557, z: -23.28993}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3683,6 +3711,10 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 4727059070187274344, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 5592376996200174308, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: m_Name
       value: Enemy (5)
@@ -3781,6 +3813,10 @@ PrefabInstance:
     - target: {fileID: 4293685724611458673, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: m_IsKinematic
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4727059070187274344, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5592376996200174308, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: m_Name
@@ -4246,6 +4282,10 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 4727059070187274344, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 5592376996200174308, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: m_Name
       value: Enemy (9)
@@ -4488,6 +4528,10 @@ PrefabInstance:
     - target: {fileID: 8914267961793513602, guid: 82d1f594a6fa44e5c9f0328ffc0f0fcf, type: 3}
       propertyPath: field of view
       value: 60.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081318846309501757, guid: 82d1f594a6fa44e5c9f0328ffc0f0fcf, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

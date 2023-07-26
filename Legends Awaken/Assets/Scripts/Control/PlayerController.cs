@@ -22,6 +22,7 @@ namespace RPG.Control
         
         [SerializeField] CursorMapping[] cursorMappings = null;
         [SerializeField] float maxNavMeshProjectionDistance = 1.0f;
+        [SerializeField] float maxNavPathLength = 100.0f;
 
 
         private void Awake()
@@ -32,7 +33,7 @@ namespace RPG.Control
         private void Update()
         {
             if (health.IsDead()) return;
-            if (InteractWithUI()) return;
+            // if (InteractWithUI()) return;
             if (health.IsDead())
             {
                 SetCursor(CursorType.None);
@@ -115,9 +116,6 @@ namespace RPG.Control
             {
                 if (hit.transform.CompareTag("Water"))
                 {
-                    // Perform actions specific to objects with the "Water" tag
-                    Debug.Log("Clicked on an object with the Water tag!");
-                    // Add your additional actions or logic here...
 
                     // Since we are interacting with water, we don't want to move to it.
                     SetCursor(CursorType.None);
@@ -148,7 +146,26 @@ namespace RPG.Control
             if (!hasCastToNavMesh) return false;
 
             target = navMeshHit.position;
+
+            // NavMeshPath path = new NavMeshPath();
+            // bool hasPath = NavMesh.CalculatePath(transform.position, target, NavMesh.AllAreas, path);
+            // if (!hasPath) return false;
+            // if (path.status != NavMeshPathStatus.PathComplete) return false;
+            // if (GetPathLength(path) > maxNavPathLength) return false;
+
             return true;
+        }
+
+        private float GetPathLength(NavMeshPath path)
+        {
+            float total = 0;
+            if (path.corners.Length < 2) return total;
+            for (int i = 0; i < path.corners.Length - 1; i++)
+            {
+                total += Vector3.Distance(path.corners[i], path.corners[i + 1]);
+            }
+
+            return total;
         }
 
         private void SetCursor(CursorType type)
