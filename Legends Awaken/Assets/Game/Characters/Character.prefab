@@ -173,12 +173,12 @@ MonoBehaviour:
       - m_Target: {fileID: 4631946041533658514}
         m_TargetAssemblyTypeName: RPG.UI.DamageText.DamageTextSpawner, Assembly-CSharp
         m_MethodName: Spawn
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 13
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -238,7 +238,7 @@ MonoBehaviour:
   startingLevel: 1
   characterClass: 1
   progression: {fileID: 11400000, guid: 780dd1c30ade0413daf1121a98f757c1, type: 2}
-  levelUpParticleEffect: {fileID: 0}
+  levelUpParticleEffect: {fileID: 7502153002482408759, guid: 8040cdc7e2acc4b0582a476c110e334c, type: 3}
   shouldUseModifiers: 0
 --- !u!1001 &7948399898306901034
 PrefabInstance:

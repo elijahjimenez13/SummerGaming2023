@@ -33,7 +33,7 @@ namespace RPG.Control
         private void Update()
         {
             if (health.IsDead()) return;
-            // if (InteractWithUI()) return;
+            if (InteractWithUI()) return;
             if (health.IsDead())
             {
                 SetCursor(CursorType.None);
