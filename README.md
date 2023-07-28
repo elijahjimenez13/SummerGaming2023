@@ -1,1 +1,4 @@
-# SummerGaming2023
+# Game Summary - Legends Awakened, a Fixed-camera, Single Player, 3rd-Person Action RPG game, is set during the grubby phase of the medieval era when brave Sir Knights were bold and foolish and believed they were stronger than they really are. The player must step up as our unlikely, young hero, you must be brave and battle the Queen’s soldiers and grotesque monsters by finding ancient weapons, leveling up your character, venturing to far off lands.
+# Win - You win the game by defeating all enemies that are ravenging a rural town and holding the people hostage.
+# Lose - You lose if you die to the enemies who have a variety of weapons and combat skills.
+# Controls - The game entirely utilizes point and click movement similar to that of league of legends. You can save the game by pressing S and load it once you rejoin by pressing L. The game also automatically saves your data whenever you pass through portals.
