@@ -11314,7 +11314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 906.56213
+      value: 850
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -14806,7 +14806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 906.56213
+      value: 850
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -16224,7 +16224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 906.56213
+      value: 850
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -17411,9 +17411,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeInTime: 0.2
-  fadeOutTime: 0.2
-  firstLevelBuildIndex: 1
-  menuLevelBuildIndex: 0
 --- !u!1001 &2108829826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17853,7 +17850,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 906.56213
+      value: 850
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_AnchoredPosition.y

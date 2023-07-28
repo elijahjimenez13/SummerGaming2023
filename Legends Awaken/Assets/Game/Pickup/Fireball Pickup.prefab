@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 0.7
       objectReference: {fileID: 0}
+    - target: {fileID: 3685652689052610973, guid: 2640a33594b6a4abc99d08aedd1355f9, type: 3}
+      propertyPath: weaponConfig
+      value: 
+      objectReference: {fileID: 11400000, guid: 46463de15ec974f158fcd7f018231bd0, type: 2}
     - target: {fileID: 3751000387298822451, guid: 2640a33594b6a4abc99d08aedd1355f9, type: 3}
       propertyPath: m_Name
       value: Fireball Pickup
