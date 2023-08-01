@@ -7,6 +7,7 @@ using RPG.Stats;
 using System.Collections.Generic;
 using GameDevTV.Utils;
 using System;
+using GameDevTV.Inventories;
 
 namespace RPG.Combat
 {
@@ -22,6 +23,7 @@ namespace RPG.Combat
         WeaponConfig defaultWeapon = null;
 
         Health target;
+        Equipment equipment;
 
         float timeSinceLastAttack = Mathf.Infinity;
         WeaponConfig currentWeaponConfig;
@@ -31,6 +33,11 @@ namespace RPG.Combat
         {
             currentWeaponConfig = defaultWeapon;
             currentWeapon = new LazyValue<Weapon>(SetupDefaultWeapon);
+            equipment = GetComponent<Equipment>();
+            if (equipment)
+            {
+                equipment.equipmentUpdated += UpdateWeapon;
+            }
         }
 
         private Weapon SetupDefaultWeapon()
@@ -65,6 +72,22 @@ namespace RPG.Combat
         {
             currentWeaponConfig = weapon;
             currentWeapon.value = AttatchWeapon(weapon);
+        }
+
+        private void UpdateWeapon()
+        {
+            // Get the weapon from equipment
+            var weapon = equipment.GetItemInSlot(EquipLocation.Weapon) as WeaponConfig;
+            // Cast to WeaponConfig
+            if (weapon == null)
+            {
+                // Equip weapon
+                EquipWeapon(defaultWeapon);
+            } else
+            {
+                // What if no weapon?
+                EquipWeapon(weapon);
+            }
         }
 
         private Weapon AttatchWeapon(WeaponConfig weapon)

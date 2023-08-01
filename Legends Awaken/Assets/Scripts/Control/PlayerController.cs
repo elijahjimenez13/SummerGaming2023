@@ -23,6 +23,9 @@ namespace RPG.Control
         [SerializeField] CursorMapping[] cursorMappings = null;
         [SerializeField] float maxNavMeshProjectionDistance = 1.0f;
         [SerializeField] float maxNavPathLength = 100.0f;
+        [SerializeField] float raycastRadius = 1.0f;
+
+        bool isDraggingUI = false;
 
 
         private void Awake()
@@ -48,9 +51,21 @@ namespace RPG.Control
 
         private bool InteractWithUI()
         {
+            if (Input.GetMouseButtonUp(0))
+            {
+                isDraggingUI = false;
+            }
             if (EventSystem.current.IsPointerOverGameObject())
             {
+                if (Input.GetMouseButtonDown(0))
+                {
+                    isDraggingUI = true;
+                }
                 SetCursor(CursorType.UI);
+                return true;
+            }
+            if (isDraggingUI)
+            {
                 return true;
             }
             return false;
@@ -76,8 +91,7 @@ namespace RPG.Control
 
         RaycastHit[] RaycastAllSorted()
         {
-            RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
-            float[] distances = new float[hits.Length];
+            RaycastHit[] hits = Physics.SphereCastAll(GetMouseRay(), raycastRadius);            float[] distances = new float[hits.Length];
             for (int i = 0; i < hits.Length; i++)
             {
                 distances[i] = hits[i].distance;
