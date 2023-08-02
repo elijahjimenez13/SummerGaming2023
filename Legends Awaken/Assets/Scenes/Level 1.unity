@@ -8121,7 +8121,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811102374}
-  m_LocalRotation: {x: 0.08353692, y: 0.8574442, z: -0.14741991, w: 0.48587906}
+  m_LocalRotation: {x: 0.08353691, y: 0.85744417, z: -0.14741988, w: 0.48587906}
   m_LocalPosition: {x: -29.97, y: 7.34, z: 2.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10304,7 +10304,7 @@ PrefabInstance:
     - target: {fileID: 9187007773027984705, guid: 8d40082f57c9742088759651dc665244, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 11400000, guid: cbe0d67ff1f864d9ca3dbb5dd7a421a9, type: 2}
+      objectReference: {fileID: 11400000, guid: 7e3c035805fc64cb8a3326bfcce77b5a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10470,7 +10470,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1070198377}
-  m_LocalRotation: {x: 0.28147313, y: 0.28207147, z: -0.08695709, w: 0.9130427}
+  m_LocalRotation: {x: 0.2814731, y: 0.2820715, z: -0.0869571, w: 0.9130427}
   m_LocalPosition: {x: 2.8, y: 4, z: 4.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14457,7 +14457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6999284500192287961, guid: 82d1f594a6fa44e5c9f0328ffc0f0fcf, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -570.7497
+      value: -570.75006
       objectReference: {fileID: 0}
     - target: {fileID: 6999486844518057369, guid: 82d1f594a6fa44e5c9f0328ffc0f0fcf, type: 3}
       propertyPath: m_AnchorMax.x
@@ -15844,6 +15844,10 @@ PrefabInstance:
     - target: {fileID: 1429796654098198926, guid: fdfbc3212dda24341bef4432fab88380, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704123179277577573, guid: fdfbc3212dda24341bef4432fab88380, type: 3}
+      propertyPath: scatterDistance
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4933870582802120455, guid: fdfbc3212dda24341bef4432fab88380, type: 3}
       propertyPath: m_Name
