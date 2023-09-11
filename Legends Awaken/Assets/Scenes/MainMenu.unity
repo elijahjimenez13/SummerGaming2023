@@ -11324,7 +11324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1139.0385
+      value: -1175
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14954,7 +14954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1314.0385
+      value: -1350
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15247,7 +15247,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -595, y: 681}
+  m_AnchoredPosition: {x: -595, y: 700}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1805394816
@@ -15270,11 +15270,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Keybinds -
-
-    S = Save
-
-    L = Load Save'
+  m_text: "Keybinds \nS = Save\nL = Load Save\nI = Inventory"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16511,7 +16507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -964.03845
+      value: -1000
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -17694,6 +17690,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeInTime: 0.2
+  fadeOutTime: 0.2
+  firstLevelBuildIndex: 1
+  menuLevelBuildIndex: 0
 --- !u!1001 &2108829826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18137,7 +18136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -789.0386
+      value: -825
       objectReference: {fileID: 0}
     - target: {fileID: 5199209526416587212, guid: 6d345666d66488f4a91eeba6eab054de, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2180585649644617862, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
+      propertyPath: dropLibrary
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ad5bf079e4b6498bae3e7537351410b, type: 2}
     - target: {fileID: 5592376996200174308, guid: 80f0e11b3796a477583fd479c1dd6cea, type: 3}
       propertyPath: m_Name
       value: Knight
